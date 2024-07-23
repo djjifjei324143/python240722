@@ -19,3 +19,5 @@ print("---람다 함수 사용---")
 iterL = filter(lambda x:x>20, lst)
 for item in iterL:
     print("item:{0}".format(item))
+
+    
