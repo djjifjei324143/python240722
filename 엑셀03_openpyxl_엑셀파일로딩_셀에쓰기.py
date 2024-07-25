@@ -1,7 +1,10 @@
 import  openpyxl  as  op  
 
 wb = op.load_workbook("test2.xlsx") 
+
+#시트명 명시
 ws = wb["직원명부"] 
+
 #"B1" Cell에 입력하기
 ws.cell(row=1, column=2).value = "입력테스트1"
 #"C1" Cell에 입력하기
